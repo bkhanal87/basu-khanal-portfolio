@@ -3,8 +3,8 @@ export const projects = [
     title: "National-Parks",
     subtitle: "Project-One",
     description:
-      "This website was designed to give users an easy way to search for national parks to see while visiting a state, as well as look for different activities to do while visiting. Technologies used: HTML5, CSS3",
-    image: "./national-parks.png",
+      "To give users an easy way to search for national parks to see while visiting a state, as well as look for different activities to do while visiting. Technologies used: HTML5, CSS3, JS, Weather API, Node, and Express.",
+    image: "./project-one.gif",
     link: "https://bkhanal87.github.io/National-Parks/",
   },
 
@@ -12,30 +12,30 @@ export const projects = [
     title: "Take-a-Break",
     subtitle: "Project-Two",
     description:
-      "A website for Take-a-Break restaurant where users can browse the menu, read reviews, and leave reviews. Technologies used: Node.js and Express.js- creating a RESTful API, MySQL and Sequelize ORM- database, Handlebars.js- template engine, Bootstrap- CSS framework, ScrollReveal- JS library.",
-    image: "./take-a-break.png",
+      "To enable users to browse the menu, read reviews, and leave reviews. Technologies used: Node.js, Express.js, MySQL, Sequelize ORM, Handlebars.js, Bootstrap- CSS, ScrollReveal.",
+    image: "./project-two.gif",
     // Repo: "https://github.com/Chtanicala/Take-a-Break",
     link: "https://enigmatic-hamlet-26860.herokuapp.com/",
   },
 
   {
-    title: "Schedule-Planner",
-    subtitle: "JavaScript schedule planner",
+    title: "What-you-tryna-watch",
+    subtitle: "Final-Project",
     description:
-      "Calendar application that allows a user to save events for each hour of the day so that they can manage their time efficiently.",
-    image: "schedule-planner.png",
+      "To allow users to search for movies and leave comments about these movies. Technologies used: React, Heroku, Bootstrap-react, SQL",
+    image: "project-three.gif",
     // Repo: "https://github.com/bkhanal87/Schedule-Planner",
-    link: "https://bkhanal87.github.io/Schedule-Planner/",
+    link: "https://protected-thicket-50731.herokuapp.com/",
   },
 
   {
-    title: "JavaScript-Password-Generator",
-    subtitle: "Password Generator",
+    title: "Team-Profile-Generator",
+    subtitle: "TPG",
     description:
-      "To enable user to generate strong and secure password by using different combination of numbers, characters, and icons.",
-    image: "password-generator.png",
+      "To generate an HTML webpage that displays summaries for each person on a team. Technogies used: HTML, CSS, Node, JS, Screencastify.",
+    image: "team-profile-generator.gif",
     // Repo: "https://github.com/bkhanal87/JavaScript-Password-Generator",
-    link: "https://github.com/bkhanal87/Schedule-Planner",
+    link: "https://watch.screencastify.com/v/MXXwXvx42viaQOumLWzE",
   },
 ];
 

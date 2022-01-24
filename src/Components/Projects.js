@@ -12,8 +12,9 @@ export default function Projects() {
             Apps I've Built
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed  text-base">
-            Please click on individual images below to view the deployed version
-            of my projects. I appreciate you taking time to go through my work.
+            Please click on the individual images below to view the deployed
+            version of my projects. I appreciate you taking the time to go
+            through my work.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
