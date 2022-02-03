@@ -4,7 +4,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Skills from "./Components/Skills";
 import Contact from "./Components/Contact";
-
+import Resume from "./Components/Resume";
 export default function App() {
   return (
     <main className="text-gray-400 bg-gray-900 body-font">
@@ -13,6 +13,7 @@ export default function App() {
       <Projects />
       <Skills />
       <Contact />
+      {/* <Resume /> */}
     </main>
   );
 }

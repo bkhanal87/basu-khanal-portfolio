@@ -1,6 +1,7 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
+import { Button } from "react-bootstrap";
 
 export default function Projects() {
   return (
@@ -9,12 +10,11 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Apps I've Built
+            Projects
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed  text-base">
-            Please click on the individual images below to view the deployed
-            version of my projects. I appreciate you taking the time to go
-            through my work.
+            Please click on the images or buttons below to view deployed
+            projects and their repositories.
           </p>
         </div>
         <div className="flex flex-wrap -m-4">
@@ -39,6 +39,21 @@ export default function Projects() {
                   </h1>
                   <p className="leading-relaxed">{project.description}</p>
                 </div>
+              </div>
+
+              <div className="flex justify-center">
+                <a
+                  href={project.link}
+                  className="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+                >
+                  Demo
+                </a>
+                <a
+                  href={project.Repo}
+                  className="inline-flex text-black bg-blue-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg"
+                >
+                  Repo
+                </a>
               </div>
             </a>
           ))}
