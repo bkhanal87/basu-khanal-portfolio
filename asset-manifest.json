@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/FINAL-REACT-PORTFOLIO/static/css/main.77a94750.css",
+    "main.js": "/FINAL-REACT-PORTFOLIO/static/js/main.19eb4395.js",
+    "index.html": "/FINAL-REACT-PORTFOLIO/index.html",
+    "main.77a94750.css.map": "/FINAL-REACT-PORTFOLIO/static/css/main.77a94750.css.map",
+    "main.19eb4395.js.map": "/FINAL-REACT-PORTFOLIO/static/js/main.19eb4395.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77a94750.css",
+    "static/js/main.19eb4395.js"
+  ]
+}
